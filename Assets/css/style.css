@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+body {
+    background-image: url(/Assets/img/image-fundo-body.jfif);
+    /* background-repeat:no-repeat; */
+    background-size: 100%;
+}
+
+#tudo {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(253, 253, 253, 0.096);
+    box-shadow: 10px 5px 5px black;
+}
+
+header {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+    background: thistle;
+}
+
+.form {
+    color: white;
+    background: rgba(255, 255, 255, 0.205);
+    position: relative;
+    box-shadow: 10px 5px 5px black;
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+    height: auto;
+    padding: 40px;
+}
+
+.form label {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form #input-text {
+    background: rgb(231, 255, 247);
+    border: none;
+    height: 30px;
+    width: 100%;
+    box-shadow: 10px 5px 5px rgb(3, 184, 255);
+}
+
+.form p {
+    background-color: black;
+    color: aliceblue;
+    height: 20px;
+    padding: 4px;
+    box-shadow: 10px 5px 5px rgb(255, 85, 85);
+}
+
+.input-radio {
+    background: rgba(247, 6, 6, 0.219);
+    box-shadow: 10px 5px 5px rgb(255, 85, 85);
+}
+
+.input-radio input {
+    cursor: pointer;
+}
+
+#Submit {
+    background: black;
+    color: azure;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 10px 5px 5px rgb(184, 67, 0);
+}
+
+#Submit:hover {
+    background-color: brown;
+    box-shadow: 10px 5px 5px rgb(255, 224, 206);
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
